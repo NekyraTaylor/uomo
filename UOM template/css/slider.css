@@ -1,0 +1,68 @@
+.slider-container {
+  width: 100%;
+  border: 2px solid #fed3d2;
+  padding: 10px;
+  height: fit-content;
+  position: relative;
+}
+.slider-container::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+.slider img {
+  width: 100%;
+  height: 90%;
+}
+.slider .slider-img{
+  position: absolute;
+  right: 50px;
+  bottom: 10px;
+}
+.slider-container .heading{
+    position: absolute;
+    top: 50%;
+    padding: 20px;
+}
+.slider-container .heading .heading-line{
+    border-bottom: 2px solid #c32929;
+    width: 50px;
+    display: inline-block;
+    padding: auto 10px;
+    position: absolute;
+}
+.slider-container .heading p{
+    display: inline-block;
+    color: #c32929;
+    position: absolute;
+    left: 80px;
+    top: 11px;
+    text-transform: uppercase;
+}
+.slider-container .heading h1{
+  margin: 30px 0;
+  text-transform: uppercase;
+  font-size: 4rem;
+}
+.slider-container .heading h1 .heading-bold{
+  font-weight: 700;
+}
+.slider-container .heading .heading-btn-container{
+  position: relative;
+  height: 20px;
+  /* margin-left: 20px; */
+}
+.slider-container .heading .heading-btn-container a{
+  text-decoration: none;
+  border: none;
+  text-transform: uppercase;
+  font-size: .9rem;
+  position: absolute;
+  color: #000;
+  white-space: nowrap;
+  font-weight: 500;
+}
+.slider-container .heading .heading-btn-container a:hover{
+  border-bottom: 2px solid black;
+  transition: border-bottom .3s ease-in;
+}

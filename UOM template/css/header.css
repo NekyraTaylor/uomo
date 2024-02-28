@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  align-items: center;
+  margin: 40px 25px;
+  position: sticky;
+}
+.header::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+.logo {
+  display: inline-block;
+  margin-left: 40px;
+  margin-right: 50px;
+  width: 10%;
+}
+.logo img {
+  height: 33px;
+}
+.nav {
+  display: inline-block;
+  width: 50%;
+}
+.nav ul li {
+  display: inline-block;
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin: 0 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.2px;
+  line-height: 1.4;
+}
+.icon-menu {
+  width: 40%;
+  display: flex;
+  justify-content: end;
+  margin-right: 20px;
+}
+
+.icon-menu .icon {
+  display: inline-block;
+  margin: 0px 10px;
+  font-size: 1.5rem;
+}
